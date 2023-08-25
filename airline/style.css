@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #11172b;
+  padding: 12px 0;
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  font-family: "Titillium web";
+}
+
+.container {
+  margin: 0 auto;
+  width: 640px;
+}
+
+#logo {
+  height: 24px;
+}
+
+.accent {
+  font-weight: 600;
+}
+
+#content {
+  background-color: #f8f8f8;
+}
+
+.container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+#trip {
+  background-color: #ebeff8;
+  margin: 40px 0 20px;
+  padding: 24px 12px 24px 32px;
+  font-size: 12px;
+  color: #b3bdd5;
+}
+
+#trip > .title > .airplain-img {
+  height: 12px;
+}
+
+#trip > .title > span {
+  font-size: 16px;
+  color: #b3bdd5;
+}
+
+#trip > .start-end {
+  font-size: 32px;
+  font-family: "Titillium Web";
+  color: #000000;
+}
+
+#trip > .date {
+  background-color: #ffffff;
+  padding: 8px 24px;
+  margin: 24px 0 16px;
+  width: 207px;
+}
+
+#trip > .date > p {
+  font-size: 16px;
+  color: #000000;
+}
+
+hr {
+  margin: 20px auto;
+  width: 640px;
+  border: 1px dashed #b3bdd5;
+}
+
+.trip-ticket {
+  width: 640px;
+  margin: 20px auto;
+  background-color: #ffffff;
+}
+
+.trip-ticket > .title {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  padding: 8px 24px;
+  border-bottom: 1px solid #dbf1ec;
+  color: #16bf97;
+}
+
+.trip-ticket > p {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Titillium Web";
+  color: #b3bdd5;
+  margin: 26px 0px 0px 24px;
+}
+
+.trip-ticket > .airline-date {
+  margin: 4px 0px 4px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a345e;
+}
+
+.trip-ticket > div {
+  font-size: 16px;
+  color: #061f66;
+  margin: 4px 0px 4px 24px;
+}
+
+.trip-ticket > .footer {
+  margin: 4px 24px 0 0;
+  padding-bottom: 24px;
+  text-align: right;
+}
+
+.trip-ticket > .footer > span {
+  margin-right: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a345e;
+}
+
+.trip-ticket > .footer .soldout {
+  color: #dce8e8;
+}

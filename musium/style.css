@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: #dcdcdc;
+}
+
+.wrapper {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.logo {
+  width: 104px;
+  margin: 68px 0px 24px 48px;
+}
+
+.header {
+  border-bottom: 2px solid grey;
+}
+
+.nav {
+  margin: 0px 48px 24px;
+}
+
+.nav-menu {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+  margin: 24px 20px 24px 0px;
+}
+
+.title {
+  margin: 40px 0px 8px 24px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.date {
+  font-size: 16px;
+  color: #000000;
+  margin: 8px 0px 24px 24px;
+}
+
+.painting-img {
+  height: 194px;
+}
+
+.paintings {
+  overflow: scroll;
+  white-space: nowrap;
+  margin-left: 15px;
+}
+
+.moreshow {
+  display: inline-block;
+  margin: 24px 0px 72px 24px;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.place {
+  margin: 0 24px;
+}
+
+.place-info {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.place-info-text {
+  margin: 16px 0px 24px 0;
+}
+
+.place-img {
+  width: 100%;
+}
